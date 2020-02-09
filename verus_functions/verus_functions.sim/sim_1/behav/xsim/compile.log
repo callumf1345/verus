@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/blank/fpga/Verushash2/verus_functions/verus_functions.srcs/sources_1/new/aesenc_new.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aesenc_new
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/blank/fpga/Verushash2/verus_functions/verus_functions.srcs/sim_1/new/aesenc_new_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aesenc_new_tb

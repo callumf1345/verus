@@ -1,0 +1,511 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Feb  6 19:28:57 2020
+# Process ID: 10217
+# Current directory: /home/desktop/Documents/GIT/Verushash2/verus_functions/verus_functions.runs/synth_1
+# Command line: vivado -log dummy_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source dummy_top.tcl
+# Log file: /home/desktop/Documents/GIT/Verushash2/verus_functions/verus_functions.runs/synth_1/dummy_top.vds
+# Journal file: /home/desktop/Documents/GIT/Verushash2/verus_functions/verus_functions.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source dummy_top.tcl -notrace
+Command: synth_design -top dummy_top -part xc7a200tsbg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Device 21-403] Loading part xc7a200tsbg484-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 10244 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1851.840 ; gain = 153.684 ; free physical = 6906 ; free virtual = 11990
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'dummy_top' [/home/desktop/Documents/GIT/Verushash2/verus_functions/verus_functions.srcs/sources_1/new/dummy_top.v:23]
+INFO: [Synth 8-6157] synthesizing module 'haraka512_perm' [/home/desktop/Documents/GIT/Verushash2/verus_functions/verus_functions.srcs/sources_1/new/haraka512_perm.v:56]
+INFO: [Synth 8-6157] synthesizing module 'haraka512_perm_aes' [/home/desktop/Documents/GIT/Verushash2/verus_functions/verus_functions.srcs/sources_1/new/haraka512_perm_aes.v:23]
+	Parameter rc bound to: 5120'b10011101011110111000000101110101111100001111111011000101101100100000101011000000001000001110011001001100011100001000010000000110000101111111011100001000001011111010010001101011000011110110010001101011101000001111001110001000111000011011010001100110100010110001010010010001000000101001111101100000100111010000001011001111100110001000010011110010010100110010110111011110000000100011010001111001010011110101101111111101101011111011110011110011101110110000100001001111011110110010111011100110111010101101011000001110010001000111000000111001101111100001110011001101111011100111100110001011010001000111001001001000110010111011000011001111110010110111101100000101100010100010101111101101001101010101001110001101101101110011001010010000011011101110111011001101111010100111111000011011111011110100111111011010011000010010011101000001111000101101000001111100001011100101111001000011100011111100001001100111001110110000101111000111000111111110001011111101010111110110011100000111110011001100101010101111101100001101100100100100001010011110111001100101110101001011100111001010100011111101101111101100111010010111111110000110111001101111000101100011010011011010101100110011011111100000001110101101010011110100000000101010010110110110010011001101101101111101010010000100101111110011000000011100000000001001100011110110100011010010111010001011000000100110100110111111001000110001011110010100101110010000101111001100101100101000101000101101100111010101110011001000100111101010101001001010011100100101010101101111110111101010011001111000000001001111101011010100100111110001001000101001001011100100111111111010000011100001001000101010011101110110101100101011100111111011010011011111111011100001001001101010101110111010111000010001110101100011001000110110101000100100100111110100010001000000001110100001000111101010011011101100101010001001110011001001000000001001011001011111100001000000000000000101010010111000100001001001000001001010111111101100100100111110010100100111111000111100011110100010011110000100111110011100000110011001110111011000010111100000001000100001011100110000000111010100100000101100110100101110001010001011100110110111110010010101100110100111111110001010101000111010101111110110101101111101001100000001000011011001111011111111001000110111000101111011000010000110011000010000110101110000011000000110001011000110100110101111110011110110010100111001000111000010100000010100001100000100001100000010000111000010010001011100101001011010001110101001010011010001001101101110100010010010101011110010110010111011011010000110101100100010001111001001011100100011100100101011010001110001000100001110010101011000101110011011101001101100111010111000011001011000001000100011100010010010101111111101001110001101000100101110000100100100110111011111110100111101100100110111011111000110111100001010111011100101001111001000011011011011101100010001001000100010110010111110001110001101111001001000001110011100101000001110101111111111011010000110001001100000101110110111110111110111001010111100011101001110000110101011100100101101100111001101000111100100111000101101110011010011010010110111001101001110100100101011001100101100110001000001010100010100010010110100001100011011001100000110000111000011010001111011101101000011100110010110100011101011000101101101110100110001101100100000001111110110111011110000011111100111101010000111010110100111110110110010110001000111110010100111111000000010001000110101111010001110011101110101100101110101001111000100101101100001111100110110110111111001000101111000011010111000101110011110010100011011011011010111011101111101110111101101011000010111010110101010011111001101010111011110111001000110101010011001110100000110011011001001110110101010111010011010100001101011111100000100001101101011111011001100000100100111111100110011101101011001000100010101001110100010001010110011001101010111111110010101000001101001000111101100101111011001110100000000111001100000010100110000001111101101111001001001110001100001110110100000000001110101000011001110111000101100010100001010001110100100011000111011110010111010101110111000000010101011000011001110100110010110101000011010010110110001111100000011100111001010100011011001001100110000110111100000110110101011100010000010100110010110010111100000001010110001001111011010111001000010101101000111010100101110101010001111001100010100100010000000101110100100010101001101010100111000100011111011101100010111111101100001011000001010001101100111100110110111101101101010111011010111011111110100001001011111010110111000101010111011001101001101111010101111101110101111111100011000010110011100111001000011001110000101010011100101110010110100000101010010111101100010011001111000110010011001111010000011111101111001110011001010101000100110101000000010111100111011100101010100100110101110100101001100001101010001001010010000001000100010100001101110110000000100000010111110111101111101111100011011000110101010010101010001101011101100111101011001101001100100100000001111101111000111001111000001001010111101001001111110101110100011110001100001110000011010000010100001100111011100010111101001111111011011110111010110010010101000100010000010001010000000001000000011110011000110101001110101 
+INFO: [Synth 8-6157] synthesizing module 'aesenc2' [/home/desktop/Documents/GIT/Verushash2/verus_functions/verus_functions.srcs/sources_1/new/aesenc2.v:24]
+	Parameter sbox bound to: 2048'b01100011011111000111011101111011111100100110101101101111110001010011000000000001011001110010101111111110110101111010101101110110110010101000001011001001011111011111101001011001010001111111000010101101110101001010001010101111100111001010010001110010110000001011011111111101100100110010011000110110001111111111011111001100001101001010010111100101111100010111000111011000001100010001010100000100110001110010001111000011000110001001011000000101100110100000011100010010100000001110001011101011001001111011001001110101000010011000001100101100000110100001101101101110010110101010000001010010001110111101011010110011001010011110001100101111100001000101001111010001000000001110110100100000111111001011000101011011011010101100101110111110001110010100101001001100010110001100111111010000111011111010101011111011010000110100110100110011100001010100010111111001000000100111111101010000001111001001111110101000010100011010001101000000100011111001001010011101001110001111010110111100101101101101101000100001000100001111111111110011110100101100110100001100000100111110110001011111100101110100010000010111110001001010011101111110001111010110010001011101000110010111001101100000100000010100111111011100001000100010101010010000100010000100011011101110101110000001010011011110010111100000101111011011111000000011001000111010000010100100100100000110001001000101110011000010110100111010110001100010100100011001010111100100011110011110011111001000001101110110110110001101110101010100111010101001011011000101011011110100111010100110010101111010101011100000100010111010011110000010010100101110000111001010011010110100110001101110100011011101011101000001111101001011101111011000101110001010011100000011111010110101011001100100100000000011111101100000111001100001001101010101011110111001100001101100000100011101100111101110000111111000100110000001000101101001110110011000111010010100100110110001111010000111111010011100111001010101001010001101111110001100101000011000100100001101101111111110011001000010011010000100000110011001001011010000111110110000010101001011101100010110 
+INFO: [Synth 8-6155] done synthesizing module 'aesenc2' (1#1) [/home/desktop/Documents/GIT/Verushash2/verus_functions/verus_functions.srcs/sources_1/new/aesenc2.v:24]
+INFO: [Synth 8-6157] synthesizing module 'haraka512_perm_mix' [/home/desktop/Documents/GIT/Verushash2/verus_functions/verus_functions.srcs/sources_1/new/haraka512_perm_mix.v:23]
+INFO: [Synth 8-6157] synthesizing module '_mm_unpacklo_epi32' [/home/desktop/Documents/GIT/Verushash2/verus_functions/verus_functions.srcs/sources_1/new/_mm_unpacklo_epi32.v:23]
+INFO: [Synth 8-6155] done synthesizing module '_mm_unpacklo_epi32' (2#1) [/home/desktop/Documents/GIT/Verushash2/verus_functions/verus_functions.srcs/sources_1/new/_mm_unpacklo_epi32.v:23]
+INFO: [Synth 8-6157] synthesizing module '_mm_unpackhi_epi32' [/home/desktop/Documents/GIT/Verushash2/verus_functions/verus_functions.srcs/sources_1/new/_mm_unpacklo_epi32.v:36]
+INFO: [Synth 8-6155] done synthesizing module '_mm_unpackhi_epi32' (3#1) [/home/desktop/Documents/GIT/Verushash2/verus_functions/verus_functions.srcs/sources_1/new/_mm_unpacklo_epi32.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'haraka512_perm_mix' (4#1) [/home/desktop/Documents/GIT/Verushash2/verus_functions/verus_functions.srcs/sources_1/new/haraka512_perm_mix.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'haraka512_perm_aes' (5#1) [/home/desktop/Documents/GIT/Verushash2/verus_functions/verus_functions.srcs/sources_1/new/haraka512_perm_aes.v:23]
+WARNING: [Synth 8-7023] instance 'AES' of module 'haraka512_perm_aes' has 3 connections declared, but only 2 given [/home/desktop/Documents/GIT/Verushash2/verus_functions/verus_functions.srcs/sources_1/new/haraka512_perm.v:63]
+INFO: [Synth 8-6155] done synthesizing module 'haraka512_perm' (6#1) [/home/desktop/Documents/GIT/Verushash2/verus_functions/verus_functions.srcs/sources_1/new/haraka512_perm.v:56]
+INFO: [Synth 8-6155] done synthesizing module 'dummy_top' (7#1) [/home/desktop/Documents/GIT/Verushash2/verus_functions/verus_functions.srcs/sources_1/new/dummy_top.v:23]
+WARNING: [Synth 8-3331] design aesenc2 has unconnected port clk
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[63]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[62]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[61]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[60]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[59]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[58]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[57]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[56]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[55]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[54]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[53]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[52]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[51]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[50]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[49]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[48]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[47]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[46]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[45]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[44]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[43]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[42]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[41]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[40]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[39]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[38]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[37]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[36]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[35]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[34]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[33]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[32]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[31]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[30]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[29]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[28]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[27]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[26]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[25]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[24]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[23]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[22]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[21]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[20]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[19]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[18]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[17]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[16]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[15]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[14]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[13]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[12]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[11]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[10]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[9]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[8]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[7]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[6]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[5]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[4]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[3]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[2]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[1]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port a[0]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port b[63]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port b[62]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port b[61]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port b[60]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port b[59]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port b[58]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port b[57]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port b[56]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port b[55]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port b[54]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port b[53]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port b[52]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port b[51]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port b[50]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port b[49]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port b[48]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port b[47]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port b[46]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port b[45]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port b[44]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port b[43]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port b[42]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port b[41]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port b[40]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port b[39]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port b[38]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port b[37]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port b[36]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port b[35]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port b[34]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port b[33]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port b[32]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port b[31]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port b[30]
+WARNING: [Synth 8-3331] design _mm_unpacklo_epi32 has unconnected port b[29]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1906.590 ; gain = 208.434 ; free physical = 6913 ; free virtual = 12004
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1913.527 ; gain = 215.371 ; free physical = 6907 ; free virtual = 12008
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1913.527 ; gain = 215.371 ; free physical = 6907 ; free virtual = 12008
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/desktop/Documents/GIT/Verushash2/verus_functions/verus_functions.srcs/constrs_1/imports/GIT/nexy video constraints.xdc]
+WARNING: [Vivado 12-584] No ports matched 'sw[0]'. [/home/desktop/Documents/GIT/Verushash2/verus_functions/verus_functions.srcs/constrs_1/imports/GIT/nexy video constraints.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/desktop/Documents/GIT/Verushash2/verus_functions/verus_functions.srcs/constrs_1/imports/GIT/nexy video constraints.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[1]'. [/home/desktop/Documents/GIT/Verushash2/verus_functions/verus_functions.srcs/constrs_1/imports/GIT/nexy video constraints.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/desktop/Documents/GIT/Verushash2/verus_functions/verus_functions.srcs/constrs_1/imports/GIT/nexy video constraints.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[2]'. [/home/desktop/Documents/GIT/Verushash2/verus_functions/verus_functions.srcs/constrs_1/imports/GIT/nexy video constraints.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/desktop/Documents/GIT/Verushash2/verus_functions/verus_functions.srcs/constrs_1/imports/GIT/nexy video constraints.xdc:44]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[3]'. [/home/desktop/Documents/GIT/Verushash2/verus_functions/verus_functions.srcs/constrs_1/imports/GIT/nexy video constraints.xdc:45]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/desktop/Documents/GIT/Verushash2/verus_functions/verus_functions.srcs/constrs_1/imports/GIT/nexy video constraints.xdc:45]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[4]'. [/home/desktop/Documents/GIT/Verushash2/verus_functions/verus_functions.srcs/constrs_1/imports/GIT/nexy video constraints.xdc:46]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/desktop/Documents/GIT/Verushash2/verus_functions/verus_functions.srcs/constrs_1/imports/GIT/nexy video constraints.xdc:46]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[5]'. [/home/desktop/Documents/GIT/Verushash2/verus_functions/verus_functions.srcs/constrs_1/imports/GIT/nexy video constraints.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/desktop/Documents/GIT/Verushash2/verus_functions/verus_functions.srcs/constrs_1/imports/GIT/nexy video constraints.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[6]'. [/home/desktop/Documents/GIT/Verushash2/verus_functions/verus_functions.srcs/constrs_1/imports/GIT/nexy video constraints.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/desktop/Documents/GIT/Verushash2/verus_functions/verus_functions.srcs/constrs_1/imports/GIT/nexy video constraints.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[7]'. [/home/desktop/Documents/GIT/Verushash2/verus_functions/verus_functions.srcs/constrs_1/imports/GIT/nexy video constraints.xdc:49]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/desktop/Documents/GIT/Verushash2/verus_functions/verus_functions.srcs/constrs_1/imports/GIT/nexy video constraints.xdc:49]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'tx'. [/home/desktop/Documents/GIT/Verushash2/verus_functions/verus_functions.srcs/constrs_1/imports/GIT/nexy video constraints.xdc:153]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/desktop/Documents/GIT/Verushash2/verus_functions/verus_functions.srcs/constrs_1/imports/GIT/nexy video constraints.xdc:153]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rx'. [/home/desktop/Documents/GIT/Verushash2/verus_functions/verus_functions.srcs/constrs_1/imports/GIT/nexy video constraints.xdc:154]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/desktop/Documents/GIT/Verushash2/verus_functions/verus_functions.srcs/constrs_1/imports/GIT/nexy video constraints.xdc:154]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [/home/desktop/Documents/GIT/Verushash2/verus_functions/verus_functions.srcs/constrs_1/imports/GIT/nexy video constraints.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/desktop/Documents/GIT/Verushash2/verus_functions/verus_functions.srcs/constrs_1/imports/GIT/nexy video constraints.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/dummy_top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/dummy_top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2244.566 ; gain = 0.000 ; free physical = 6660 ; free virtual = 11738
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2244.566 ; gain = 0.000 ; free physical = 6660 ; free virtual = 11737
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 2244.566 ; gain = 546.410 ; free physical = 6894 ; free virtual = 11972
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a200tsbg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 2244.566 ; gain = 546.410 ; free physical = 6894 ; free virtual = 11972
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 2244.566 ; gain = 546.410 ; free physical = 6894 ; free virtual = 11972
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 2244.566 ; gain = 546.410 ; free physical = 6931 ; free virtual = 12014
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+------------------+------------+----------+
+|      |RTL Partition     |Replication |Instances |
++------+------------------+------------+----------+
+|1     |aesenc2__GBM0     |           1|     43852|
+|2     |aesenc2__GBM1     |           1|     18782|
+|3     |aesenc2__GBM2     |           1|     38198|
+|4     |counter_dummy_top |           1|      2048|
++------+------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      8 Bit         XORs := 800   
+	   5 Input      8 Bit         XORs := 640   
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module aesenc2 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      8 Bit         XORs := 20    
+	   5 Input      8 Bit         XORs := 16    
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 740 (col length:100)
+BRAMs: 730 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:09:26 ; elapsed = 00:09:38 . Memory (MB): peak = 3278.574 ; gain = 1580.418 ; free physical = 6637 ; free virtual = 11794
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+------------------+------------+----------+
+|      |RTL Partition     |Replication |Instances |
++------+------------------+------------+----------+
+|1     |aesenc2__GBM0     |           5|       814|
+|2     |aesenc2__GBM1     |           5|       814|
+|3     |aesenc2__GBM2     |           1|        36|
+|4     |counter_dummy_top |           1|       641|
+|5     |aesenc2__GBM2__1  |           1|      3691|
+|6     |aesenc2__GBM2__2  |           1|      3690|
+|7     |aesenc2__GBM2__3  |           1|      3712|
+|8     |aesenc2__GBM2__4  |           1|      3684|
+|9     |aesenc2__GBM2__5  |           1|      3717|
+|10    |aesenc2__GBM2__6  |           1|      3699|
+|11    |aesenc2__GBM2__7  |           1|      3731|
+|12    |aesenc2__GBM2__8  |           1|      3711|
+|13    |aesenc2__GBM2__9  |           1|      3727|
+|14    |aesenc2__GBM2__10 |           1|      3710|
+|15    |aesenc2__GBM2__11 |           1|      3677|
+|16    |aesenc2__GBM2__12 |           1|      3697|
+|17    |aesenc2__GBM2__13 |           1|      3703|
+|18    |aesenc2__GBM2__14 |           1|      3671|
+|19    |aesenc2__GBM2__15 |           1|      3710|
+|20    |aesenc2__GBM2__16 |           1|      3705|
+|21    |aesenc2__GBM2__17 |           1|      3730|
+|22    |aesenc2__GBM2__18 |           1|      3694|
+|23    |aesenc2__GBM2__19 |           1|      3693|
+|24    |aesenc2__GBM2__20 |           1|      3740|
+|25    |aesenc2__GBM2__21 |           1|      3695|
+|26    |aesenc2__GBM2__22 |           1|      3731|
+|27    |aesenc2__GBM2__23 |           1|      3716|
+|28    |aesenc2__GBM2__24 |           1|      3695|
+|29    |aesenc2__GBM2__25 |           1|      3369|
+|30    |aesenc2__GBM2__26 |           1|      3365|
+|31    |aesenc2__GBM2__27 |           1|      3369|
+|32    |aesenc2__GBM2__28 |           1|      3362|
+|33    |aesenc2__GBM2__29 |           1|       130|
+|34    |aesenc2__GBM2__30 |           1|       134|
+|35    |aesenc2__GBM2__31 |           1|       125|
+|36    |aesenc2__GBM2__32 |           1|       129|
+|37    |aesenc2__GBM2__33 |           1|      3366|
+|38    |aesenc2__GBM1__1  |          29|      1221|
+|39    |aesenc2__GBM0__1  |          24|      3495|
+|40    |aesenc2__GBM0__2  |           1|      3430|
+|41    |aesenc2__GBM0__3  |           4|      3437|
++------+------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:09:31 ; elapsed = 00:09:43 . Memory (MB): peak = 3278.574 ; gain = 1580.418 ; free physical = 6546 ; free virtual = 11703
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:09:34 ; elapsed = 00:09:46 . Memory (MB): peak = 3278.574 ; gain = 1580.418 ; free physical = 6521 ; free virtual = 11685
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+------------------+------------+----------+
+|      |RTL Partition     |Replication |Instances |
++------+------------------+------------+----------+
+|1     |aesenc2__GBM0     |           5|       814|
+|2     |aesenc2__GBM1     |           5|       814|
+|3     |aesenc2__GBM2     |           1|        36|
+|4     |counter_dummy_top |           1|       641|
+|5     |aesenc2__GBM2__1  |           1|      3691|
+|6     |aesenc2__GBM2__2  |           1|      3690|
+|7     |aesenc2__GBM2__3  |           1|      3712|
+|8     |aesenc2__GBM2__4  |           1|      3684|
+|9     |aesenc2__GBM2__5  |           1|      3717|
+|10    |aesenc2__GBM2__6  |           1|      3699|
+|11    |aesenc2__GBM2__7  |           1|      3731|
+|12    |aesenc2__GBM2__8  |           1|      3711|
+|13    |aesenc2__GBM2__9  |           1|      3727|
+|14    |aesenc2__GBM2__10 |           1|      3710|
+|15    |aesenc2__GBM2__11 |           1|      3677|
+|16    |aesenc2__GBM2__12 |           1|      3697|
+|17    |aesenc2__GBM2__13 |           1|      3703|
+|18    |aesenc2__GBM2__14 |           1|      3671|
+|19    |aesenc2__GBM2__15 |           1|      3710|
+|20    |aesenc2__GBM2__16 |           1|      3705|
+|21    |aesenc2__GBM2__17 |           1|      3730|
+|22    |aesenc2__GBM2__18 |           1|      3694|
+|23    |aesenc2__GBM2__19 |           1|      3693|
+|24    |aesenc2__GBM2__20 |           1|      3740|
+|25    |aesenc2__GBM2__21 |           1|      3695|
+|26    |aesenc2__GBM2__22 |           1|      3731|
+|27    |aesenc2__GBM2__23 |           1|      3716|
+|28    |aesenc2__GBM2__24 |           1|      3695|
+|29    |aesenc2__GBM2__25 |           1|      3369|
+|30    |aesenc2__GBM2__26 |           1|      3365|
+|31    |aesenc2__GBM2__27 |           1|      3369|
+|32    |aesenc2__GBM2__28 |           1|      3362|
+|33    |aesenc2__GBM2__29 |           1|       130|
+|34    |aesenc2__GBM2__30 |           1|       134|
+|35    |aesenc2__GBM2__31 |           1|       125|
+|36    |aesenc2__GBM2__32 |           1|       129|
+|37    |aesenc2__GBM2__33 |           1|      3366|
+|38    |aesenc2__GBM1__1  |          29|      1221|
+|39    |aesenc2__GBM0__1  |          24|      3495|
+|40    |aesenc2__GBM0__2  |           1|      3430|
+|41    |aesenc2__GBM0__3  |           4|      3437|
++------+------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:09:45 ; elapsed = 00:09:57 . Memory (MB): peak = 3284.652 ; gain = 1586.496 ; free physical = 6605 ; free virtual = 11762
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:09:46 ; elapsed = 00:09:59 . Memory (MB): peak = 3284.652 ; gain = 1586.496 ; free physical = 6605 ; free virtual = 11762
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:09:46 ; elapsed = 00:09:59 . Memory (MB): peak = 3284.652 ; gain = 1586.496 ; free physical = 6605 ; free virtual = 11762
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:09:48 ; elapsed = 00:10:00 . Memory (MB): peak = 3284.652 ; gain = 1586.496 ; free physical = 6605 ; free virtual = 11762
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:09:48 ; elapsed = 00:10:00 . Memory (MB): peak = 3284.652 ; gain = 1586.496 ; free physical = 6605 ; free virtual = 11762
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:09:48 ; elapsed = 00:10:00 . Memory (MB): peak = 3284.652 ; gain = 1586.496 ; free physical = 6605 ; free virtual = 11762
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:09:48 ; elapsed = 00:10:00 . Memory (MB): peak = 3284.652 ; gain = 1586.496 ; free physical = 6605 ; free virtual = 11762
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |   128|
+|3     |LUT1   |     1|
+|4     |LUT2   |   361|
+|5     |LUT3   |   414|
+|6     |LUT4   |   587|
+|7     |LUT5   |  2014|
+|8     |LUT6   | 18185|
+|9     |MUXF7  |  6626|
+|10    |MUXF8  |  3019|
+|11    |FDRE   |   512|
+|12    |IBUF   |     1|
+|13    |OBUF   |     8|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       | 31857|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:09:48 ; elapsed = 00:10:00 . Memory (MB): peak = 3284.652 ; gain = 1586.496 ; free physical = 6605 ; free virtual = 11762
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:09:39 ; elapsed = 00:09:52 . Memory (MB): peak = 3284.652 ; gain = 1255.457 ; free physical = 6659 ; free virtual = 11816
+Synthesis Optimization Complete : Time (s): cpu = 00:09:48 ; elapsed = 00:10:00 . Memory (MB): peak = 3284.660 ; gain = 1586.496 ; free physical = 6659 ; free virtual = 11816
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 9773 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'dummy_top' is not ideal for floorplanning, since the cellview 'dummy_top' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 3316.668 ; gain = 0.000 ; free physical = 6609 ; free virtual = 11767
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+27 Infos, 112 Warnings, 10 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:09:54 ; elapsed = 00:10:06 . Memory (MB): peak = 3316.668 ; gain = 1889.055 ; free physical = 6713 ; free virtual = 11875
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3316.668 ; gain = 0.000 ; free physical = 6713 ; free virtual = 11875
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/desktop/Documents/GIT/Verushash2/verus_functions/verus_functions.runs/synth_1/dummy_top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file dummy_top_utilization_synth.rpt -pb dummy_top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Feb  6 19:39:11 2020...

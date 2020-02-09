@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Feb  9 20:59:31 2020
+# Process ID: 6011
+# Current directory: /home/desktop/Documents/Work/verus/nonce_echo/nonce_echo.runs/impl_1
+# Command line: vivado -log nonce_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source nonce_top.tcl -notrace
+# Log file: /home/desktop/Documents/Work/verus/nonce_echo/nonce_echo.runs/impl_1/nonce_top.vdi
+# Journal file: /home/desktop/Documents/Work/verus/nonce_echo/nonce_echo.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source nonce_top.tcl -notrace
